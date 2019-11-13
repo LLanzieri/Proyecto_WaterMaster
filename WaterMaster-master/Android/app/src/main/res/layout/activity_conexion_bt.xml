@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConexionBT">
+
+    <TextView
+        android:id="@+id/IDtvdatosPeso"
+        android:layout_width="154dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginBottom="113dp"
+        android:background="#008080"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/IDbtnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="39dp"
+        android:text="DESCONECTAR"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/IDtvTemp"
+        android:layout_width="114dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="113dp"
+        android:text="Temperatura: " />
+
+    <Button
+        android:id="@+id/IDbtnBalanza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:text="MODO BALANZA" />
+
+    <TextView
+        android:id="@+id/IDtvAguafria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/IDbtnBalanza"
+        android:text="Agua fria" />
+
+    <TextView
+        android:id="@+id/IDtvAguacaliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/IDtvAguafria"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:text="Agua caliente" />
+
+    <Switch
+        android:id="@+id/IDSwitchaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/IDtvAguafria"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="90dp"
+        android:text="Estado" />
+
+    <Switch
+        android:id="@+id/IDSwitchAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/IDtvAguacaliente"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="90dp"
+        android:text="Estado" />
+
+    <TextView
+        android:id="@+id/IDtvDatostemp"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/IDtvTemp"
+        android:layout_alignEnd="@+id/IDtvdatosPeso"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-52dp"
+        android:background="#008080"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/IDtvpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/IDtvdatosPeso"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="-2dp"
+        android:text="Peso:" />
+
+</RelativeLayout>
