@@ -1,4 +1,7 @@
 # Proyecto_WaterMaster
+<div align=center>
+  <img src="https://lh3.googleusercontent.com/proxy/eYcXU_MaSfV1sT10eLfNHm1NVLkRikNh5bcrNEdURg3K2o2bIiVvTagjaLuIxJNlyiiTv5JQ-pwSCRmCD4-2LKd61y3_VW2GLakK4bdm7QOFyNrQGo4"   width=200>
+  </div>
 
 <h2 align=center>Proyecto para Sistemas Operativos Avanzados - Sistema embebido.</h2>
 
